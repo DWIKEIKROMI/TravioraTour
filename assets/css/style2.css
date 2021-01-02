@@ -1,0 +1,101 @@
+.sections {
+	border-top: 1px solid #d7d7d7;
+	display: block;
+	margin-top: 90px;
+	width: 100%;
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section-title {
+	background: rgba(255, 255, 255, 0);
+	display: inline-block;
+	margin: 10px 0;
+	padding: 0 30px;
+	position: relative;
+	top: -30px;
+}
+
+.section-title .custom-title-cont {
+	position: relative;
+}
+
+.section-title .belakang {
+	background: #fff;
+	border: 2px solid rgba(0, 0, 0, 1);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	z-index: 1;
+}
+
+.section-title .depan {
+	background: #fff;
+	border: 2px solid #00ADB5;
+	color: #000;
+	font-family: 'Assistant', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	padding: 4px 20px;
+	position: relative;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+.section-subtitle {
+	font-size: 18px;
+	color: #929292;
+	position: relative;
+	top: -22px;
+}
+
+/* CONTENT 1 */
+
+
+.content .contents p {
+	font-family: 'Assistant', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	padding-top: 3px;
+	color: #A2A2A2;
+}
+
+.content .contents .harganormal {
+	font-family: 'Assistant', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-left: 150px;
+}
+
+strike {
+	color: #00ADB5;
+}
+
+.content .contents .hargadiskon {
+	font-family: 'Assistant', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	margin-left: 120px;
+}
+
+.content .contents h6 {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #A2A2A2;
+}
+
+.store {
+	color: #EEEEEE;
+	font-family: 'Assistant', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	border-bottom: 1px solid #EEEEEE;
+	padding-bottom: 10px;
+}
