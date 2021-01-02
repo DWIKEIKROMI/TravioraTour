@@ -151,7 +151,8 @@ class Client extends CI_Controller
         $data = $this->cart_m->get();
         $is_processed = $this->Customer_m->index($post, $data);
         if ($is_processed) {
-            $this->load->view('client/proses_bayar');
+
+            $this->template->load('template_c', 'client/proses_bayar');
         } else {
             echo  "maaf pesanan gagal diproses";
         }
